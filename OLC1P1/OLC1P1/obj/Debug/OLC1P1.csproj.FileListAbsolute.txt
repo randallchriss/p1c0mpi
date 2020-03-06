@@ -1,0 +1,10 @@
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\bin\Debug\OLC1P1.exe.config
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\bin\Debug\OLC1P1.exe
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\bin\Debug\OLC1P1.pdb
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\obj\Debug\OLC1P1.csprojAssemblyReference.cache
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\obj\Debug\OLC1P1.Form1.resources
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\obj\Debug\OLC1P1.Properties.Resources.resources
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\obj\Debug\OLC1P1.csproj.GenerateResource.cache
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\obj\Debug\OLC1P1.csproj.CoreCompileInputs.cache
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\obj\Debug\OLC1P1.exe
+C:\Users\Chriss Ramos\OneDrive\Documentos\ClusterProject\Compi1\Proyecto1\p1c0mpi\OLC1P1\OLC1P1\obj\Debug\OLC1P1.pdb
