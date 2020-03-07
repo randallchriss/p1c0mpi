@@ -50,7 +50,38 @@ namespace OLC1P1
             hayPestania = true;
             int cantidadTabs = tabsArray.Count;
 
+
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //si hay pestania activa se abre el archivo en esa pestania
+            if (hayPestania == true)
+            {
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    String ruta = openFileDialog1.FileName;
+                    rutas.Add(ruta);
+                    System.IO.StreamReader sr = new System.IO.StreamReader(ruta, System.Text.Encoding.Default);
+                    string texto;
+                    texto = sr.ReadToEnd();
+                    sr.Close();
+
+                    pActiva = tabControl1.SelectedIndex;
+
+
+
+                }
+                else if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
+                {
+                    openFileDialog1.Dispose();
+                }
+            }
+            else {
+                MessageBox.Show("No hay pestañas activas, abra una nueva pestaña", "¡ADVERTENCIA!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                
+            }
         }
     }
 }
