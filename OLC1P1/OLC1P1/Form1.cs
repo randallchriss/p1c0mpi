@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,7 +41,8 @@ namespace OLC1P1
             TextBox txtContenido = new TextBox();
             txtContenido.Multiline = true;
             txtContenido.SetBounds(0, 10, 500, 320);
-
+            txtArray.Add(txtContenido);
+            //MessageBox.Show("Cantidad en txtArray " + txtArray.Count);
             TabPage t = new TabPage();
             tabsArray.Add(t);
             t.Controls.Add(txtContenido);
@@ -69,8 +71,18 @@ namespace OLC1P1
                     sr.Close();
 
                     pActiva = tabControl1.SelectedIndex;
+                    int infoTxtNumero = txtArray.Count;
+                    MessageBox.Show("txtss: " + infoTxtNumero + " pestañas: " + pActiva);
+                    TextBox txtConArchivo = (TextBox)txtArray[pActiva];
+                    txtConArchivo.Text = texto;
+                    txtArray[pActiva] = txtConArchivo;
+                    TabPage tabActual = (TabPage)tabsArray[pActiva];
 
+                    tabActual.Text = Path.GetFileNameWithoutExtension(openFileDialog1.FileName);
+                    String nombreArchivo = tabActual.Text;
+                    listaTitulos.Add(nombreArchivo);
 
+                    openFileDialog1.Dispose();
 
                 }
                 else if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
@@ -82,6 +94,11 @@ namespace OLC1P1
                 MessageBox.Show("No hay pestañas activas, abra una nueva pestaña", "¡ADVERTENCIA!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            // ver que pestania esta activa
         }
     }
 }
