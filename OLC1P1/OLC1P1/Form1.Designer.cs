@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtConsola = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnAnalizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtConsola
             // 
-            this.textBox1.Location = new System.Drawing.Point(93, 482);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(685, 159);
-            this.textBox1.TabIndex = 0;
+            this.txtConsola.Location = new System.Drawing.Point(93, 482);
+            this.txtConsola.Multiline = true;
+            this.txtConsola.Name = "txtConsola";
+            this.txtConsola.Size = new System.Drawing.Size(685, 159);
+            this.txtConsola.TabIndex = 0;
             // 
             // tabControl1
             // 
@@ -101,28 +101,28 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // button5
+            // btnAnalizar
             // 
-            this.button5.Location = new System.Drawing.Point(105, 25);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Analizar";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnAnalizar.Location = new System.Drawing.Point(105, 25);
+            this.btnAnalizar.Name = "btnAnalizar";
+            this.btnAnalizar.Size = new System.Drawing.Size(75, 23);
+            this.btnAnalizar.TabIndex = 7;
+            this.btnAnalizar.Text = "Analizar";
+            this.btnAnalizar.UseVisualStyleBackColor = true;
+            this.btnAnalizar.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1282, 653);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnAnalizar);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtConsola);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -133,14 +133,14 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtConsola;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnAnalizar;
     }
 }
 

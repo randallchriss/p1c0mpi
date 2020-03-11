@@ -57,7 +57,7 @@ namespace OLC1P1
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        {//abrir archivo
             //si hay pestania activa se abre el archivo en esa pestania
             if (hayPestania == true)
             {
@@ -97,8 +97,13 @@ namespace OLC1P1
         }
 
         private void button5_Click(object sender, EventArgs e)
-        {
+        {//Analizar
+            MessageBox.Show("Cantidad Rutas: "+ rutas.Count);
             // ver que pestania esta activa
+            int pActiva = 0;
+            pActiva = tabControl1.SelectedIndex;
+            
+
         }
     }
 }
